@@ -1,0 +1,32 @@
+.container {
+  min-height: 100px;
+  width: 100%;
+  background-color: #0a2e41;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list {
+  margin-left: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.list .navlink {
+  padding: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.list .navlink:hover {
+  color: crimson;
+}
+h2 {
+  font-size: 2.2rem;
+}
